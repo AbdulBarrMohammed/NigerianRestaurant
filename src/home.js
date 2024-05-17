@@ -22,18 +22,22 @@ export default function createHomePage() {
     const callToAction = document.createElement('p');
     const explanation = document.createElement('p');
     const discoverBtn = document.createElement('p');
-    callToAction.textContent = 'COME EAT AT THE EKO';
-    callToAction.style.fontWeight = 'bold';
-    callToAction.style.fontSize = '2rem';
+    callToAction.textContent = 'Come eat at The EKO';
+    callToAction.style.fontFamily = 'Times New Roman';
+    //callToAction.style.fontWeight = 'bold';
+    callToAction.style.fontSize = '2.5rem';
+    callToAction.style.color = '#3A5942';
     explanation.textContent = 'Come and eat at the world famous and award winning Nigerian restuarant, The EKO and explore what we have to offer';
+    explanation.style.color = 'gray';
+    explanation.style.fontFamily = 'Times New Roman';
     discoverBtn.textContent = 'Discover EKO';
     discoverBtn.style.width = '20%';
-    discoverBtn.style.backgroundColor = '#EEEBE4';
-    discoverBtn.style.color = '#3A5942';
-    discoverBtn.style.border = '3px solid #3A5942';
+    discoverBtn.style.backgroundColor = '#3A5942';
+    discoverBtn.style.color = 'white';
+    discoverBtn.style.border = 'none';
     discoverBtn.style.padding = '20px';
-    discoverBtn.style.fontWeight = 'bold';
-    discoverBtn.style.fontSize = '15px';
+    //discoverBtn.style.fontWeight = 'bold';
+    discoverBtn.style.fontSize = '13px';
     discoverBtn.style.textAlign = 'center';
 
 
